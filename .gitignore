@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 模型权重（体积大，如需共享请用 Release 或网盘）
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# 数据集
+*.gz
+*.ubyte
+data/
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
